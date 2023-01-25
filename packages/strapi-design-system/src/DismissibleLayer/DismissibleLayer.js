@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
+import useCallbackRef from '@radix-ui/react-use-callback-ref';
 import PropTypes from 'prop-types';
 
 export const DismissibleLayer = ({ children, className, onEscapeKeyDown, onPointerDownOutside }) => {
