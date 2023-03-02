@@ -13,7 +13,7 @@ import { Typography } from '../Typography';
 import { Loader } from '../Loader/Loader';
 import { Input, MainRow, ValueContainer, InputContainer } from './components';
 import { ComboboxOption } from './ComboboxOption';
-import { ComboboxList } from './ComboboxList';
+// import { ComboboxList } from './ComboboxList';
 import { Field, FieldError, FieldHint, FieldLabel } from '../Field';
 import { Stack } from '../Stack';
 import { KeyboardKeys } from '../helpers/keyboardKeys';
@@ -335,7 +335,7 @@ export const Combobox = ({
           >
             {(Boolean(filteredNodes.length) || creatable) && (
               <>
-                <ComboboxList activeOptionRef={activeOptionRef} options={filteredNodesClone} />
+                {/* <ComboboxList activeOptionRef={activeOptionRef} options={filteredNodesClone} /> */}
                 {hasOption(inputValue) && creatable && (
                   <ComboboxOption
                     isSelected={activeIndex === filteredNodes.length}
